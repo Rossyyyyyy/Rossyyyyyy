@@ -108,8 +108,8 @@ const roschel = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&count_private=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rossyyyyyy&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Rossyyyyyy&theme=radical&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
@@ -120,7 +120,7 @@ const roschel = {
 <br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rossyyyyyy&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Rossyyyyyy&theme=radical&no-frame=true&no-bg=false&row=1&column=7" width="100%" alt="Trophy" />
 </div>
 
 <br>
@@ -238,32 +238,11 @@ School Website, PC Inventory System, Phone Shop POS, File Handling System.
 
 ## 🎨 What I'm Up To
 
-<div align="center">
-
-```mermaid
-mindmap
-  root((Roschel))
-    Building
-      Web Apps
-      Mobile Apps
-      IoT Projects
-    Learning
-      Advanced React
-      System Design
-      Cloud Tech
-    Creating
-      E-commerce
-      Security Tools
-      Management Systems
-```
-
-</div>
-
 <table align="center">
   <tr>
     <td align="center" width="33%">
       <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="60px"/>
-      <br><strong>Building</strong>
+      <br><strong style="color: #F85D7F;">Building</strong>
       <br>Responsive web apps with React
     </td>
     <td align="center" width="33%">
