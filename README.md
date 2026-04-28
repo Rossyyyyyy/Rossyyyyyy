@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f1a,50:1a0533,100:0f0f1a&height=200&section=header&text=%F0%9F%8E%AE%20ROSCHEL%20MAE&fontSize=52&fontColor=a855f7&fontAlignY=45&desc=%E2%96%BA%20Full-Stack%20Developer%20%7C%20IT%20Student%20%7C%20Quest%20Giver%20%E2%97%84&descFontSize=15&descAlignY=68&descAlign=50&animation=blinking&stroke=a855f7&strokeWidth=2" width="100%"/>
+<!-- AUTO-GENERATED custom header — rebuilt every 12h via GitHub Actions -->
+<img src="./assets/header.svg" width="100%" alt="Roschel Mae — Game Profile Header"/>
 
 <div align="center">
 
@@ -9,14 +10,8 @@
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
-
-<br>
-
-<!-- ═══════════════════════════════════════ -->
-<!--           PLAYER CARD SECTION          -->
-<!-- ═══════════════════════════════════════ -->
 
 <div align="center">
 
@@ -55,7 +50,7 @@
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -64,19 +59,26 @@
 <!--           STATS / LIVE DATA            -->
 <!-- ═══════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/combo-chart--v1.png" width="28" align="center"/> PLAYER STATS  <sub><sup>[ LIVE DATA FROM GITHUB ]</sup></sub>
+## <img src="https://img.icons8.com/fluency/28/bar-chart.png" width="28" align="center"/> PLAYER STATS  <sub><sup>[ LIVE DATA FROM GITHUB ]</sup></sub>
 
 <div align="center">
 
+<!-- AUTO-GENERATED custom RPG stats card — rebuilt every 12h -->
+<img src="./assets/stats-card.svg" width="49%" alt="RPG Stats Card"/>
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D0D1A&title_color=a855f7&icon_color=ec4899&text_color=c4b5fd&count_private=true&rank_icon=github&custom_title=⚔+Battle+Stats" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rossyyyyyy&theme=synthwave&hide_border=true&background=0D0D1A&stroke=a855f7&ring=ec4899&fire=f59e0b&currStreakLabel=a855f7&sideLabels=c4b5fd&dates=6b7280" alt="GitHub Streak"/>
 
 </div>
 
 <div align="center">
 
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rossyyyyyy&theme=synthwave&hide_border=true&background=0D0D1A&stroke=a855f7&ring=ec4899&fire=f59e0b&currStreakLabel=a855f7&sideLabels=c4b5fd&dates=6b7280" alt="GitHub Streak"/>
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rossyyyyyy&layout=compact&theme=synthwave&hide_border=true&bg_color=0D0D1A&title_color=a855f7&text_color=c4b5fd&langs_count=8&custom_title=📜+Spell+Book+%28Languages%29" alt="Top Languages"/>
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rossyyyyyy&theme=tokyo-night&hide_border=true&bg_color=0D0D1A&color=a855f7&line=ec4899&point=f59e0b&area=true&area_color=a855f7&custom_title=⚡+Activity+Map" alt="Contribution Graph"/>
+
+</div>
+
+<div align="center">
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rossyyyyyy&theme=tokyo-night&hide_border=true&bg_color=0D0D1A&color=a855f7&line=ec4899&point=f59e0b&area=true&area_color=a855f7&custom_title=⚡+Activity+Map" alt="Contribution Graph"/>
 
 </div>
 
@@ -94,7 +96,7 @@
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -177,7 +179,7 @@
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -328,7 +330,7 @@
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -372,7 +374,7 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -396,7 +398,7 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>
@@ -440,7 +442,7 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%"/>
 </div>
 
 <br>

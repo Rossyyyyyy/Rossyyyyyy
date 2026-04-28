@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <!-- background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0f1a"/>
+      <stop offset="50%"  stop-color="#1a0533"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <!-- purple glow gradient for text -->
+    <linearGradient id="tg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c084fc"/>
+      <stop offset="50%"  stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <!-- scanline pattern for CRT effect -->
+    <pattern id="scan" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect width="900" height="1" y="3" fill="#000" opacity="0.08"/>
+    </pattern>
+    <!-- glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <!-- CRT scanlines overlay -->
+  <rect width="900" height="220" fill="url(#scan)"/>
+
+  <!-- decorative corner pixels TL -->
+  <rect x="0"  y="0"  width="8" height="8"  fill="#a855f7"/>
+  <rect x="8"  y="0"  width="4" height="4"  fill="#a855f7" opacity="0.6"/>
+  <rect x="0"  y="8"  width="4" height="4"  fill="#a855f7" opacity="0.6"/>
+  <!-- decorative corner pixels TR -->
+  <rect x="892" y="0"  width="8" height="8"  fill="#ec4899"/>
+  <rect x="888" y="0"  width="4" height="4"  fill="#ec4899" opacity="0.6"/>
+  <rect x="892" y="8"  width="4" height="4"  fill="#ec4899" opacity="0.6"/>
+  <!-- decorative corner pixels BL -->
+  <rect x="0"   y="212" width="8" height="8" fill="#ec4899"/>
+  <rect x="8"   y="216" width="4" height="4" fill="#ec4899" opacity="0.6"/>
+  <rect x="0"   y="208" width="4" height="4" fill="#ec4899" opacity="0.6"/>
+  <!-- decorative corner pixels BR -->
+  <rect x="892" y="212" width="8" height="8" fill="#a855f7"/>
+  <rect x="888" y="216" width="4" height="4" fill="#a855f7" opacity="0.6"/>
+  <rect x="892" y="208" width="4" height="4" fill="#a855f7" opacity="0.6"/>
+
+  <!-- top border line -->
+  <rect x="12" y="3"   width="876" height="2" fill="#a855f7" opacity="0.5"/>
+  <!-- bottom border line -->
+  <rect x="12" y="215" width="876" height="2" fill="#ec4899" opacity="0.5"/>
+
+  <!-- blinking cursor decoration -->
+  <rect x="40" y="30" width="10" height="16" fill="#a855f7" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- [ PLAYER ONE ] label -->
+  <text x="60" y="44" font-family="'Courier New', monospace" font-size="12"
+        fill="#6b7280" letter-spacing="3">[ PLAYER ONE ]</text>
+
+  <!-- main name with glow -->
+  <text x="450" y="110" font-family="'Courier New', monospace" font-size="52"
+        font-weight="bold" text-anchor="middle" fill="url(#tg)"
+        filter="url(#softglow)" letter-spacing="4">ROSCHEL MAE E. ANO-OS</text>
+
+  <!-- subtitle -->
+  <text x="450" y="140" font-family="'Courier New', monospace" font-size="14"
+        text-anchor="middle" fill="#c4b5fd" letter-spacing="2"
+        filter="url(#glow)">dadadadahahadwdukjja</text>
+
+  <!-- divider dots -->
+  <text x="450" y="162" font-family="'Courier New', monospace" font-size="12"
+        text-anchor="middle" fill="#a855f7" opacity="0.7">· · · · · · · · · · · · · · · · · · · ·</text>
+
+  <!-- live stats row -->
+  <text x="160" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#f0abfc">⭐ 0 STARS</text>
+  <text x="290" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#818cf8">📦 25 REPOS</text>
+  <text x="450" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#34d399">👥 12 FOLLOWERS</text>
+  <text x="620" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#f59e0b">🍴 0 FORKS</text>
+  <text x="760" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#ec4899">🇵🇭 PHILIPPINES</text>
+
+  <!-- last updated -->
+  <text x="450" y="212" font-family="'Courier New', monospace" font-size="9"
+        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Tue, 28 Apr 2026 11:27:50 GMT</text>
+</svg>

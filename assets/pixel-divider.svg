@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="12" viewBox="0 0 900 12">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0f0f1a"/>
+      <stop offset="20%"  stop-color="#a855f7"/>
+      <stop offset="50%"  stop-color="#ec4899"/>
+      <stop offset="80%"  stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+  </defs>
+  <!-- pixel blocks row -->
+  <rect x="0"   y="4" width="6" height="4" fill="#a855f7" opacity="0.3"/>
+  <rect x="8"   y="4" width="6" height="4" fill="#a855f7" opacity="0.5"/>
+  <rect x="16"  y="2" width="6" height="8" fill="#a855f7" opacity="0.7"/>
+  <rect x="24"  y="0" width="6" height="12" fill="#a855f7"/>
+  <!-- main gradient line -->
+  <rect x="32"  y="4" width="836" height="4" fill="url(#pg)" rx="2"/>
+  <!-- right mirror -->
+  <rect x="870" y="0" width="6" height="12" fill="#a855f7"/>
+  <rect x="878" y="2" width="6" height="8" fill="#a855f7" opacity="0.7"/>
+  <rect x="886" y="4" width="6" height="4" fill="#a855f7" opacity="0.5"/>
+  <rect x="894" y="4" width="6" height="4" fill="#a855f7" opacity="0.3"/>
+</svg>
