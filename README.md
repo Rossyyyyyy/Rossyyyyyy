@@ -36,7 +36,7 @@
 <tr>
 <td width="55%" valign="top">
 
-## 🧬 Who Am I?
+## <img src="https://img.icons8.com/fluency/28/user-male-circle.png" width="28" align="center"/> Who Am I?
 
 ```ts
 const roschel: Developer = {
@@ -64,7 +64,7 @@ const roschel: Developer = {
 <td width="5%"></td>
 <td width="40%" valign="top">
 
-## 📊 At a Glance
+## <img src="https://img.icons8.com/fluency/28/combo-chart--v1.png" width="28" align="center"/> At a Glance
 
 <img src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=EC4899&text_color=ffffff&count_private=true&rank_icon=github" width="100%"/>
 
@@ -82,7 +82,7 @@ const roschel: Developer = {
 
 <br>
 
-## 🛠️ Tech Arsenal
+## <img src="https://img.icons8.com/fluency/28/maintenance.png" width="28" align="center"/> Tech Arsenal
 
 <!-- Unique: skill bars using progress-style layout with icons grouped by category -->
 
@@ -92,7 +92,7 @@ const roschel: Developer = {
 <tr>
 <td align="center" valign="top" width="25%">
 
-**🎨 Frontend**
+**<img src="https://img.icons8.com/fluency/20/design.png" width="20" align="center"/> Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-ffffff?style=flat-square&logo=next.js&logoColor=black)
@@ -104,7 +104,7 @@ const roschel: Developer = {
 </td>
 <td align="center" valign="top" width="25%">
 
-**⚙️ Backend**
+**<img src="https://img.icons8.com/fluency/20/server.png" width="20" align="center"/> Backend**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
@@ -114,13 +114,13 @@ const roschel: Developer = {
 </td>
 <td align="center" valign="top" width="25%">
 
-**🗄️ Databases**
+**<img src="https://img.icons8.com/fluency/20/database.png" width="20" align="center"/> Databases**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-**🔧 Tools**
+**<img src="https://img.icons8.com/fluency/20/tools.png" width="20" align="center"/> Tools**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
@@ -130,7 +130,7 @@ const roschel: Developer = {
 </td>
 <td align="center" valign="top" width="25%">
 
-**💬 Languages**
+**<img src="https://img.icons8.com/fluency/20/code.png" width="20" align="center"/> Languages**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -159,7 +159,7 @@ const roschel: Developer = {
 
 <br>
 
-## 🚀 Featured Projects
+## <img src="https://img.icons8.com/fluency/28/target.png" width="28" align="center"/> Featured Projects
 
 <!-- Unique card layout: alternating left/right with emoji accent colors -->
 
@@ -171,7 +171,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### 🌊 ProtectOcean
+### <img src="https://img.icons8.com/fluency/24/ocean.png" width="24" align="center"/> ProtectOcean
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -192,7 +192,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### 🏛️ SmartB Barangay System
+### <img src="https://img.icons8.com/fluency/24/city-hall.png" width="24" align="center"/> SmartB Barangay System
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -215,7 +215,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### ⚡ SingKarga Charging Station
+### <img src="https://img.icons8.com/fluency/24/lightning-bolt.png" width="24" align="center"/> SingKarga Charging Station
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
@@ -235,7 +235,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### 🛡️ Email Phishing Detector
+### <img src="https://img.icons8.com/fluency/24/security-shield-green.png" width="24" align="center"/> Email Phishing Detector
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
@@ -257,7 +257,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### 🛒 E-Commerce Projects
+### <img src="https://img.icons8.com/fluency/24/shopping-cart.png" width="24" align="center"/> E-Commerce Projects
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -278,7 +278,7 @@ const roschel: Developer = {
 
 <div align="center">
 
-### 💼 More Projects
+### <img src="https://img.icons8.com/fluency/24/briefcase.png" width="24" align="center"/> More Projects
 
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -308,7 +308,7 @@ const roschel: Developer = {
 
 <br>
 
-## 📈 GitHub Analytics
+## <img src="https://img.icons8.com/fluency/28/bar-chart.png" width="28" align="center"/> GitHub Analytics
 
 <div align="center">
 
@@ -339,7 +339,7 @@ const roschel: Developer = {
 
 <br>
 
-## 🌱 Currently Up To
+## <img src="https://img.icons8.com/fluency/28/activity-feed.png" width="28" align="center"/> Currently Up To
 
 <div align="center">
 
@@ -379,14 +379,14 @@ flowchart LR
 
 <br>
 
-## 🐍 Contribution Snake
+## <img src="https://img.icons8.com/fluency/28/snake.png" width="28" align="center"/> Contribution Snake
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
 </div>
@@ -399,7 +399,7 @@ flowchart LR
 
 <br>
 
-## 🤝 Let's Connect
+## <img src="https://img.icons8.com/fluency/28/handshake.png" width="28" align="center"/> Let's Connect
 
 <div align="center">
 
