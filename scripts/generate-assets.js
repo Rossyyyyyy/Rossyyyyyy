@@ -40,6 +40,26 @@ function fetchJSON(url) {
   });
 }
 
+/** Fetch visitor count from komarev.com — returns a number or null on failure */
+function fetchVisitorCount(username) {
+  return new Promise((resolve) => {
+    const url = `https://komarev.com/ghpvc/?username=${encodeURIComponent(username)}&format=json`;
+    https.get(url, { headers: { "User-Agent": "readme-generator" } }, (res) => {
+      let data = "";
+      res.on("data", (chunk) => (data += chunk));
+      res.on("end", () => {
+        try {
+          const json = JSON.parse(data);
+          // komarev returns { count: <number> }
+          resolve(typeof json.count === "number" ? json.count : null);
+        } catch {
+          resolve(null);
+        }
+      });
+    }).on("error", () => resolve(null));
+  });
+}
+
 /** Escape text for safe SVG embedding */
 function esc(str) {
   return String(str)
@@ -79,6 +99,9 @@ async function getGitHubData() {
       ? repos.reduce((sum, r) => sum + (r.forks_count || 0), 0)
       : 0;
 
+    // Fetch visitor count from komarev (may return null if unavailable)
+    const visitors = await fetchVisitorCount(USERNAME);
+
     return {
       name       : user.name        || USERNAME,
       bio        : user.bio         || "Full-Stack Developer",
@@ -87,6 +110,7 @@ async function getGitHubData() {
       publicRepos: user.public_repos || 0,
       stars,
       forks,
+      visitors   : visitors !== null ? visitors : "—",
       avatarUrl  : user.avatar_url  || "",
       createdAt  : user.created_at  || "",
     };
@@ -95,7 +119,7 @@ async function getGitHubData() {
     return {
       name: USERNAME, bio: "Full-Stack Developer",
       followers: 0, following: 0, publicRepos: 0,
-      stars: 0, forks: 0, avatarUrl: "", createdAt: "",
+      stars: 0, forks: 0, visitors: "—", avatarUrl: "", createdAt: "",
     };
   }
 }
@@ -184,15 +208,17 @@ function buildHeaderSVG(data) {
         text-anchor="middle" fill="#a855f7" opacity="0.7">· · · · · · · · · · · · · · · · · · · ·</text>
 
   <!-- live stats row -->
-  <text x="160" y="188" font-family="'Courier New', monospace" font-size="11"
+  <text x="100" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#f0abfc">⭐ ${esc(String(data.stars))} STARS</text>
-  <text x="290" y="188" font-family="'Courier New', monospace" font-size="11"
+  <text x="220" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#818cf8">📦 ${esc(String(data.publicRepos))} REPOS</text>
-  <text x="450" y="188" font-family="'Courier New', monospace" font-size="11"
+  <text x="360" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#34d399">👥 ${esc(String(data.followers))} FOLLOWERS</text>
-  <text x="620" y="188" font-family="'Courier New', monospace" font-size="11"
+  <text x="510" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#f59e0b">🍴 ${esc(String(data.forks))} FORKS</text>
-  <text x="760" y="188" font-family="'Courier New', monospace" font-size="11"
+  <text x="660" y="188" font-family="'Courier New', monospace" font-size="11"
+        text-anchor="middle" fill="#a78bfa">👁 ${esc(String(data.visitors))} VISITORS</text>
+  <text x="800" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#ec4899">🇵🇭 PHILIPPINES</text>
 
   <!-- last updated -->
@@ -205,12 +231,15 @@ function buildStatsCardSVG(data) {
   const now = new Date().toUTCString();
 
   // Clamp values for bar display (max caps for visual purposes)
-  const reposPct  = Math.min((data.publicRepos / 50)  * 100, 100);
-  const starsPct  = Math.min((data.stars       / 100) * 100, 100);
-  const follPct   = Math.min((data.followers   / 200) * 100, 100);
-  const forksPct  = Math.min((data.forks       / 50)  * 100, 100);
+  const reposPct    = Math.min((data.publicRepos / 50)  * 100, 100);
+  const starsPct    = Math.min((data.stars       / 100) * 100, 100);
+  const follPct     = Math.min((data.followers   / 200) * 100, 100);
+  const forksPct    = Math.min((data.forks       / 50)  * 100, 100);
+  const visitorsPct = typeof data.visitors === "number"
+    ? Math.min((data.visitors / 5000) * 100, 100)
+    : 0;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="310" viewBox="0 0 480 310">
   <defs>
     <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0f0f1a"/>
@@ -227,20 +256,20 @@ function buildStatsCardSVG(data) {
   </defs>
 
   <!-- card background -->
-  <rect width="480" height="280" rx="8" fill="url(#cbg)"/>
-  <rect width="480" height="280" rx="8" fill="url(#cscan)"/>
+  <rect width="480" height="310" rx="8" fill="url(#cbg)"/>
+  <rect width="480" height="310" rx="8" fill="url(#cscan)"/>
   <!-- border -->
-  <rect x="1" y="1" width="478" height="278" rx="7"
+  <rect x="1" y="1" width="478" height="308" rx="7"
         fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.7"/>
   <!-- inner border accent -->
-  <rect x="4" y="4" width="472" height="272" rx="5"
+  <rect x="4" y="4" width="472" height="302" rx="5"
         fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.3"/>
 
   <!-- corner pixels -->
   <rect x="0"   y="0"   width="6" height="6" rx="1" fill="#a855f7"/>
   <rect x="474" y="0"   width="6" height="6" rx="1" fill="#ec4899"/>
-  <rect x="0"   y="274" width="6" height="6" rx="1" fill="#ec4899"/>
-  <rect x="474" y="274" width="6" height="6" rx="1" fill="#a855f7"/>
+  <rect x="0"   y="304" width="6" height="6" rx="1" fill="#ec4899"/>
+  <rect x="474" y="304" width="6" height="6" rx="1" fill="#a855f7"/>
 
   <!-- title bar -->
   <rect x="0" y="0" width="480" height="36" rx="7" fill="#1a0533"/>
@@ -291,19 +320,25 @@ function buildStatsCardSVG(data) {
   ${pixelBar(140, 172, 270, forksPct, "#ec4899")}
   <text x="420" y="180" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">${Math.round(forksPct)}%</text>
 
+  <!-- VISITORS -->
+  <text x="20"  y="204" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">👁 VISITORS</text>
+  <text x="120" y="204" font-family="'Courier New', monospace" font-size="11" fill="#a78bfa">${esc(String(data.visitors))}</text>
+  ${pixelBar(160, 196, 250, visitorsPct, "#7c3aed")}
+  <text x="420" y="204" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">${visitorsPct > 0 ? Math.round(visitorsPct) + "%" : "—"}</text>
+
   <!-- divider -->
-  <rect x="20" y="194" width="440" height="1" fill="#a855f7" opacity="0.3"/>
+  <rect x="20" y="218" width="440" height="1" fill="#a855f7" opacity="0.3"/>
 
   <!-- XP bar label -->
-  <text x="20" y="214" font-family="'Courier New', monospace" font-size="11"
+  <text x="20" y="238" font-family="'Courier New', monospace" font-size="11"
         fill="#c4b5fd">⚡ OVERALL XP</text>
   <!-- XP bar (average of all stats) -->
-  ${pixelBar(20, 220, 440, Math.round((reposPct + starsPct + follPct + forksPct) / 4), "#818cf8")}
+  ${pixelBar(20, 244, 440, Math.round((reposPct + starsPct + follPct + forksPct) / 4), "#818cf8")}
 
   <!-- footer -->
-  <rect x="0" y="254" width="480" height="26" rx="0" fill="#0a0a14"/>
-  <rect x="0" y="272" width="480" height="8"  rx="0" fill="#0a0a14"/>
-  <text x="240" y="268" font-family="'Courier New', monospace" font-size="9"
+  <rect x="0" y="278" width="480" height="32" rx="0" fill="#0a0a14"/>
+  <rect x="0" y="302" width="480" height="8"  rx="0" fill="#0a0a14"/>
+  <text x="240" y="292" font-family="'Courier New', monospace" font-size="9"
         text-anchor="middle" fill="#374151" letter-spacing="1">UPDATED: ${esc(now)}</text>
 </svg>`;
 }
@@ -314,7 +349,8 @@ async function main() {
   console.log("⚔  Fetching GitHub data for", USERNAME, "...");
   const data = await getGitHubData();
   console.log("   name:", data.name, "| repos:", data.publicRepos,
-              "| stars:", data.stars, "| followers:", data.followers);
+              "| stars:", data.stars, "| followers:", data.followers,
+              "| visitors:", data.visitors);
 
   if (!fs.existsSync(ASSETS_DIR)) fs.mkdirSync(ASSETS_DIR, { recursive: true });
 

@@ -42,8 +42,26 @@
 [![Facebook](https://img.shields.io/badge/▶_FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/roschelmae.anoos.1)
 [![Instagram](https://img.shields.io/badge/▶_INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ru_shelll?igsh=MW5jNGZnYmswZHRwNA==)
 [![X](https://img.shields.io/badge/▶_X_TWITTER-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Roschelmae2)
-&nbsp;
-![Profile Views](https://komarev.com/ghpvc/?username=Rossyyyyyy&label=👁+VISITORS&color=a855f7&style=for-the-badge)
+
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!--           VISITOR COUNTER              -->
+<!-- ═══════════════════════════════════════ -->
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════╗
+║           👁  VISITORS LOG  👁           ║
+╚══════════════════════════════════════════╝
+```
+
+![Visitor Count](https://komarev.com/ghpvc/?username=Rossyyyyyy&label=TOTAL+VISITORS&color=a855f7&style=for-the-badge)
+&nbsp;&nbsp;
+![Since](https://img.shields.io/badge/TRACKING_SINCE-2024-ec4899?style=for-the-badge)
+
+<sub><i>Every visit counts — thanks for stopping by, adventurer! 🎮</i></sub>
 
 </div>
 
