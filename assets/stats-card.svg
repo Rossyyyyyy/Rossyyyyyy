@@ -1,102 +1,144 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="310" viewBox="0 0 480 310">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="340" viewBox="0 0 480 340">
   <defs>
     <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#0f0f1a"/>
+      <stop offset="0%"   stop-color="#07071a"/>
+      <stop offset="60%"  stop-color="#130a2e"/>
       <stop offset="100%" stop-color="#1a0533"/>
     </linearGradient>
-    <filter id="cglow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="titleg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#f472b6"/>
+      <stop offset="50%"  stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="xpg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c3aed"/>
+      <stop offset="50%"  stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a0533"/>
+      <stop offset="50%"  stop-color="#2d1060"/>
+      <stop offset="100%" stop-color="#1a0533"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a1a3a"/>
+      <stop offset="100%" stop-color="#0f0f2a"/>
+    </linearGradient>
+    <filter id="cglow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <!-- scanlines -->
-    <pattern id="cscan" x="0" y="0" width="480" height="4" patternUnits="userSpaceOnUse">
-      <rect width="480" height="1" y="3" fill="#000" opacity="0.07"/>
+    <filter id="sglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="cscan" x="0" y="0" width="480" height="3" patternUnits="userSpaceOnUse">
+      <rect width="480" height="1" y="2" fill="#000" opacity="0.06"/>
     </pattern>
   </defs>
 
-  <!-- card background -->
-  <rect width="480" height="310" rx="8" fill="url(#cbg)"/>
-  <rect width="480" height="310" rx="8" fill="url(#cscan)"/>
-  <!-- border -->
-  <rect x="1" y="1" width="478" height="308" rx="7"
-        fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.7"/>
-  <!-- inner border accent -->
-  <rect x="4" y="4" width="472" height="302" rx="5"
-        fill="none" stroke="#ec4899" stroke-width="0.5" opacity="0.3"/>
+  <!-- background -->
+  <rect width="480" height="340" rx="10" fill="url(#cbg)"/>
+  <rect width="480" height="340" rx="10" fill="url(#cscan)"/>
 
-  <!-- corner pixels -->
-  <rect x="0"   y="0"   width="6" height="6" rx="1" fill="#a855f7"/>
-  <rect x="474" y="0"   width="6" height="6" rx="1" fill="#ec4899"/>
-  <rect x="0"   y="304" width="6" height="6" rx="1" fill="#ec4899"/>
-  <rect x="474" y="304" width="6" height="6" rx="1" fill="#a855f7"/>
+  <!-- outer border -->
+  <rect x="0.75" y="0.75" width="478.5" height="338.5" rx="9.5"
+        fill="none" stroke="url(#titleg)" stroke-width="1.5" opacity="0.8"/>
+  <rect x="3" y="3" width="474" height="334" rx="8"
+        fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- corner accents -->
+  <rect x="0"   y="0"   width="10" height="3"  rx="1" fill="#a855f7"/>
+  <rect x="0"   y="0"   width="3"  height="10" rx="1" fill="#a855f7"/>
+  <rect x="470" y="0"   width="10" height="3"  rx="1" fill="#ec4899"/>
+  <rect x="477" y="0"   width="3"  height="10" rx="1" fill="#ec4899"/>
+  <rect x="0"   y="337" width="10" height="3"  rx="1" fill="#ec4899"/>
+  <rect x="0"   y="330" width="3"  height="10" rx="1" fill="#ec4899"/>
+  <rect x="470" y="337" width="10" height="3"  rx="1" fill="#a855f7"/>
+  <rect x="477" y="330" width="3"  height="10" rx="1" fill="#a855f7"/>
 
   <!-- title bar -->
-  <rect x="0" y="0" width="480" height="36" rx="7" fill="#1a0533"/>
-  <rect x="0" y="28" width="480" height="8"  fill="#1a0533"/>
-
-  <!-- blinking cursor in title -->
-  <rect x="14" y="10" width="8" height="14" fill="#a855f7">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  <rect x="0" y="0" width="480" height="42" rx="9" fill="url(#topbar)"/>
+  <rect x="0" y="34" width="480" height="8" fill="url(#topbar)"/>
+  <rect x="14" y="12" width="8" height="16" rx="1" fill="#a855f7">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
-  <text x="30" y="24" font-family="'Courier New', monospace" font-size="13"
-        font-weight="bold" fill="#f0abfc" filter="url(#cglow)"
-        letter-spacing="2">⚔  RPG STAT CARD  ⚔</text>
-  <text x="380" y="24" font-family="'Courier New', monospace" font-size="10"
-        fill="#6b7280">LIVE DATA</text>
+  <text x="30" y="28" font-family="'Courier New',monospace" font-size="13"
+        font-weight="bold" fill="url(#titleg)" filter="url(#cglow)" letter-spacing="2">⚔  RPG STAT CARD  ⚔</text>
+  <rect x="380" y="13" width="82" height="16" rx="3" fill="#0a2a1a" stroke="#10b981" stroke-width="0.8"/>
+  <circle cx="390" cy="21" r="3" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="396" y="25" font-family="'Courier New',monospace" font-size="9" fill="#10b981" letter-spacing="1">LIVE DATA</text>
 
-  <!-- player name -->
-  <text x="240" y="62" font-family="'Courier New', monospace" font-size="16"
-        font-weight="bold" text-anchor="middle" fill="#c084fc"
+  <!-- player info -->
+  <text x="240" y="70" font-family="'Courier New',monospace" font-size="17"
+        font-weight="bold" text-anchor="middle" fill="url(#titleg)"
         filter="url(#cglow)">ROSCHEL MAE E. ANO-OS</text>
-  <text x="240" y="78" font-family="'Courier New', monospace" font-size="10"
-        text-anchor="middle" fill="#6b7280" letter-spacing="2">CLASS: FULL-STACK DEVELOPER</text>
+  <text x="240" y="86" font-family="'Courier New',monospace" font-size="10"
+        text-anchor="middle" fill="#6b7280" letter-spacing="3">CLASS: FULL-STACK DEVELOPER</text>
+  <rect x="190" y="93" width="100" height="18" rx="3" fill="#1a0533" stroke="#a855f7" stroke-width="0.8"/>
+  <text x="240" y="106" font-family="'Courier New',monospace" font-size="9"
+        text-anchor="middle" fill="#c084fc" letter-spacing="2">⚡ LVL ∞  ·  🇵🇭</text>
 
   <!-- divider -->
-  <rect x="20" y="86" width="440" height="1" fill="#a855f7" opacity="0.3"/>
+  <rect x="20" y="118" width="440" height="1" fill="url(#xpg)" opacity="0.4"/>
 
-  <!-- stat rows -->
   <!-- REPOS -->
-  <text x="20"  y="108" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">📦 REPOS</text>
-  <text x="110" y="108" font-family="'Courier New', monospace" font-size="11" fill="#f0abfc">24</text>
-  <rect x="140" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="146" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="152" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="158" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="164" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="170" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="176" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="182" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="188" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="194" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="200" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="206" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="212" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="218" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="224" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="230" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="236" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="242" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="248" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="254" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="260" y="100" width="5" height="8" rx="1" fill="#a855f7"/><rect x="266" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="272" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="278" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="284" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="290" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="296" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="302" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="308" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="314" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="320" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="326" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="332" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="338" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="344" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="350" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="356" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="362" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="368" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="374" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="380" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="386" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="392" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="398" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="404" y="100" width="5" height="8" rx="1" fill="#1e1e3a"/>
-  <text x="420" y="108" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">48%</text>
+  <text x="20"  y="140" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">📦 REPOS</text>
+  <text x="108" y="140" font-family="'Courier New',monospace" font-size="11" fill="#f0abfc" font-weight="bold">24</text>
+  <rect x="140" y="131" width="270" height="10" rx="5" fill="url(#track)"/>
+  <rect x="140" y="131" width="130" height="10" rx="5" fill="#a855f7" opacity="0.92"/>
+  <rect x="140" y="131" width="130" height="4" rx="5" fill="#c084fc" opacity="0.35"/>
+  <text x="420" y="140" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">48%</text>
 
   <!-- STARS -->
-  <text x="20"  y="132" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">⭐ STARS</text>
-  <text x="110" y="132" font-family="'Courier New', monospace" font-size="11" fill="#fbbf24">0</text>
-  <rect x="140" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="146" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="152" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="158" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="164" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="170" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="176" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="182" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="188" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="194" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="200" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="206" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="212" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="218" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="224" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="230" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="236" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="242" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="248" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="254" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="260" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="266" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="272" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="278" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="284" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="290" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="296" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="302" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="308" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="314" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="320" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="326" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="332" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="338" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="344" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="350" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="356" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="362" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="368" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="374" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="380" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="386" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="392" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="398" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="404" y="124" width="5" height="8" rx="1" fill="#1e1e3a"/>
-  <text x="420" y="132" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">0%</text>
+  <text x="20"  y="164" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">⭐ STARS</text>
+  <text x="108" y="164" font-family="'Courier New',monospace" font-size="11" fill="#fbbf24" font-weight="bold">0</text>
+  <rect x="140" y="155" width="270" height="10" rx="5" fill="url(#track)"/>
+  <rect x="140" y="155" width="4" height="10" rx="5" fill="#f59e0b" opacity="0.92"/>
+  <rect x="140" y="155" width="4" height="4" rx="5" fill="#fbbf24" opacity="0.35"/>
+  <text x="420" y="164" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">0%</text>
 
   <!-- FOLLOWERS -->
-  <text x="20"  y="156" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">👥 FOLLOWERS</text>
-  <text x="130" y="156" font-family="'Courier New', monospace" font-size="11" fill="#34d399">14</text>
-  <rect x="160" y="148" width="5" height="8" rx="1" fill="#10b981"/><rect x="166" y="148" width="5" height="8" rx="1" fill="#10b981"/><rect x="172" y="148" width="5" height="8" rx="1" fill="#10b981"/><rect x="178" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="184" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="190" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="196" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="202" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="208" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="214" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="220" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="226" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="232" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="238" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="244" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="250" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="256" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="262" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="268" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="274" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="280" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="286" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="292" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="298" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="304" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="310" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="316" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="322" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="328" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="334" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="340" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="346" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="352" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="358" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="364" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="370" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="376" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="382" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="388" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="394" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="400" y="148" width="5" height="8" rx="1" fill="#1e1e3a"/>
-  <text x="420" y="156" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">7%</text>
+  <text x="20"  y="188" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">👥 FOLLOWERS</text>
+  <text x="128" y="188" font-family="'Courier New',monospace" font-size="11" fill="#34d399" font-weight="bold">14</text>
+  <rect x="160" y="179" width="250" height="10" rx="5" fill="url(#track)"/>
+  <rect x="160" y="179" width="18" height="10" rx="5" fill="#10b981" opacity="0.92"/>
+  <rect x="160" y="179" width="18" height="4" rx="5" fill="#34d399" opacity="0.35"/>
+  <text x="420" y="188" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">7%</text>
 
   <!-- FORKS -->
-  <text x="20"  y="180" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">🍴 FORKS</text>
-  <text x="110" y="180" font-family="'Courier New', monospace" font-size="11" fill="#f472b6">0</text>
-  <rect x="140" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="146" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="152" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="158" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="164" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="170" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="176" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="182" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="188" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="194" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="200" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="206" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="212" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="218" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="224" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="230" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="236" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="242" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="248" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="254" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="260" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="266" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="272" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="278" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="284" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="290" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="296" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="302" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="308" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="314" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="320" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="326" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="332" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="338" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="344" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="350" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="356" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="362" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="368" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="374" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="380" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="386" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="392" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="398" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="404" y="172" width="5" height="8" rx="1" fill="#1e1e3a"/>
-  <text x="420" y="180" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">0%</text>
+  <text x="20"  y="212" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">🍴 FORKS</text>
+  <text x="108" y="212" font-family="'Courier New',monospace" font-size="11" fill="#f472b6" font-weight="bold">0</text>
+  <rect x="140" y="203" width="270" height="10" rx="5" fill="url(#track)"/>
+  <rect x="140" y="203" width="4" height="10" rx="5" fill="#ec4899" opacity="0.92"/>
+  <rect x="140" y="203" width="4" height="4" rx="5" fill="#f472b6" opacity="0.35"/>
+  <text x="420" y="212" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">0%</text>
 
   <!-- VISITORS -->
-  <text x="20"  y="204" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd">👁 VISITORS</text>
-  <text x="120" y="204" font-family="'Courier New', monospace" font-size="11" fill="#a78bfa">—</text>
-  <rect x="160" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="166" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="172" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="178" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="184" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="190" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="196" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="202" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="208" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="214" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="220" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="226" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="232" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="238" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="244" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="250" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="256" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="262" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="268" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="274" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="280" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="286" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="292" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="298" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="304" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="310" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="316" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="322" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="328" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="334" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="340" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="346" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="352" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="358" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="364" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="370" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="376" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="382" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="388" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="394" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="400" y="196" width="5" height="8" rx="1" fill="#1e1e3a"/>
-  <text x="420" y="204" font-family="'Courier New', monospace" font-size="10" fill="#6b7280">—</text>
+  <text x="20"  y="236" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">👁 VISITORS</text>
+  <text x="118" y="236" font-family="'Courier New',monospace" font-size="11" fill="#a78bfa" font-weight="bold">—</text>
+  <rect x="160" y="227" width="250" height="10" rx="5" fill="url(#track)"/>
+  <rect x="160" y="227" width="4" height="10" rx="5" fill="#7c3aed" opacity="0.92"/>
+  <rect x="160" y="227" width="4" height="4" rx="5" fill="#a78bfa" opacity="0.35"/>
+  <text x="420" y="236" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">—</text>
 
   <!-- divider -->
-  <rect x="20" y="218" width="440" height="1" fill="#a855f7" opacity="0.3"/>
+  <rect x="20" y="250" width="440" height="1" fill="url(#xpg)" opacity="0.4"/>
 
-  <!-- XP bar label -->
-  <text x="20" y="238" font-family="'Courier New', monospace" font-size="11"
-        fill="#c4b5fd">⚡ OVERALL XP</text>
-  <!-- XP bar (average of all stats) -->
-  <rect x="20" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="26" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="32" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="38" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="44" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="50" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="56" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="62" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="68" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="74" y="244" width="5" height="8" rx="1" fill="#818cf8"/><rect x="80" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="86" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="92" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="98" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="104" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="110" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="116" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="122" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="128" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="134" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="140" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="146" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="152" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="158" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="164" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="170" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="176" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="182" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="188" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="194" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="200" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="206" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="212" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="218" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="224" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="230" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="236" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="242" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="248" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="254" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="260" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="266" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="272" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="278" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="284" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="290" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="296" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="302" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="308" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="314" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="320" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="326" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="332" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="338" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="344" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="350" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="356" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="362" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="368" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="374" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="380" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="386" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="392" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="398" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="404" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="410" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="416" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="422" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="428" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="434" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="440" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="446" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/><rect x="452" y="244" width="5" height="8" rx="1" fill="#1e1e3a"/>
+  <!-- OVERALL XP -->
+  <text x="20" y="270" font-family="'Courier New',monospace" font-size="11" fill="#c4b5fd">⚡ OVERALL XP</text>
+  <text x="420" y="270" font-family="'Courier New',monospace" font-size="10" fill="#6b7280">14%</text>
+  <rect x="20" y="277" width="440" height="12" rx="6" fill="url(#track)"/>
+  <rect x="20" y="277" width="62" height="12" rx="6" fill="url(#xpg)" opacity="0.92"/>
+  <rect x="20" y="277" width="62" height="4" rx="6" fill="#f0abfc" opacity="0.35"/>
+  <text x="90" y="287" font-family="'Courier New',monospace" font-size="8" fill="#6b7280" opacity="0.8">KEEP GRINDING...</text>
 
   <!-- footer -->
-  <rect x="0" y="278" width="480" height="32" rx="0" fill="#0a0a14"/>
-  <rect x="0" y="302" width="480" height="8"  rx="0" fill="#0a0a14"/>
-  <text x="240" y="292" font-family="'Courier New', monospace" font-size="9"
-        text-anchor="middle" fill="#374151" letter-spacing="1">UPDATED: Fri, 15 May 2026 03:34:23 GMT</text>
+  <rect x="0" y="308" width="480" height="32" rx="0" fill="#050510" opacity="0.8"/>
+  <rect x="0" y="330" width="480" height="10" rx="0" fill="#050510" opacity="0.8"/>
+  <rect x="20" y="308" width="440" height="1" fill="url(#xpg)" opacity="0.3"/>
+  <text x="240" y="326" font-family="'Courier New',monospace" font-size="9"
+        text-anchor="middle" fill="#374151" letter-spacing="1">UPDATED: Fri, 15 May 2026 05:06:31 GMT</text>
 </svg>
