@@ -1,9 +1,13 @@
-<!-- AUTO-GENERATED custom header — rebuilt every 12h via GitHub Actions -->
-<img src="./assets/header.svg" width="100%" alt="Roschel Mae — Game Profile Header"/>
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║         ROSCHEL MAE · GITHUB PROFILE README                 ║ -->
+<!-- ║         Auto-generated assets rebuild every 12h             ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
+<img src="./assets/header.svg" width="100%" alt="Roschel Mae — Header Banner"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=2000&pause=800&color=A855F7&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=%5BNEW+PLAYER+HAS+ENTERED+THE+GAME%5D;Loading+Roschel.exe...;Full-Stack+Dev+%7C+LVL+%E2%88%9E;Press+START+to+collaborate+%F0%9F%8E%AE" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=1800&pause=700&color=C084FC&center=true&vCenter=true&multiline=false&repeat=true&width=720&height=48&lines=%5B+NEW+PLAYER+HAS+ENTERED+THE+GAME+%5D;Initializing+Roschel.exe...;Full-Stack+Dev+%7C+LVL+%E2%88%9E+%7C+she%2Fher+%F0%9F%8C%B8;Press+%E2%96%B6+START+to+collaborate+%F0%9F%8E%AE;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
@@ -13,52 +17,48 @@
 <img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
+<br>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     PLAYER PROFILE                           -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════╗
-║                  ⚔  PLAYER PROFILE  ⚔                   ║
-╠══════════════════════════════════════════════════════════╣
-║  NAME    : Roschel Mae                                   ║
-║  CLASS   : Full-Stack Developer                          ║
-║  GUILD   : IT Student  🎓                                ║
-║  REGION  : Philippines  🇵🇭                              ║
-║  PRONOUNS: she/her  🌸                                   ║
-╠══════════════════════════════════════════════════════════╣
-║  MAIN QUEST  : Building impactful web & mobile apps      ║
-║  SIDE QUEST  : IoT & hardware exploration                ║
-║  SECRET SKILL: Debugs with console.log() unashamedly 😂  ║
-║  MOTTO       : Code → Coffee → Create → Repeat ☕        ║
-╚══════════════════════════════════════════════════════════╝
+┌─────────────────────────────────────────────────────────────────┐
+│                    ⚔   PLAYER PROFILE   ⚔                      │
+├──────────────────────────┬──────────────────────────────────────┤
+│  NAME      Roschel Mae   │  PRONOUNS    she / her  🌸           │
+│  CLASS     Full-Stack    │  REGION      Philippines  🇵🇭         │
+│            Developer     │  STATUS      ● ONLINE                │
+│  GUILD     IT Student 🎓 │  LEVEL       ∞  (no cap)             │
+├──────────────────────────┴──────────────────────────────────────┤
+│  MAIN QUEST  ›  Building impactful web & mobile apps            │
+│  SIDE QUEST  ›  IoT & hardware exploration with Raspberry Pi    │
+│  HIDDEN SKILL›  Debugs with console.log() unashamedly  😂       │
+│  MOTTO       ›  Code  →  Coffee  →  Create  →  Repeat  ☕       │
+└─────────────────────────────────────────────────────────────────┘
 ```
+
+</div>
+
+<!-- Social links styled as arcade buttons -->
+<div align="center">
+
+[![Facebook](https://img.shields.io/badge/▶%20FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/roschelmae.anoos.1)
+[![Instagram](https://img.shields.io/badge/▶%20INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ru_shelll?igsh=MW5jNGZnYmswZHRwNA==)
+[![X / Twitter](https://img.shields.io/badge/▶%20X%20%2F%20TWITTER-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Roschelmae2)
 
 </div>
 
 <br>
 
-<!-- Social badges styled as game buttons -->
+<!-- Visitor counter -->
 <div align="center">
 
-[![Facebook](https://img.shields.io/badge/▶_FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/roschelmae.anoos.1)
-[![Instagram](https://img.shields.io/badge/▶_INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ru_shelll?igsh=MW5jNGZnYmswZHRwNA==)
-[![X](https://img.shields.io/badge/▶_X_TWITTER-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Roschelmae2)
-
-</div>
-
-<!-- ═══════════════════════════════════════ -->
-<!--           VISITOR COUNTER              -->
-<!-- ═══════════════════════════════════════ -->
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════╗
-║           👁  VISITORS LOG  👁           ║
-╚══════════════════════════════════════════╝
-```
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Rossyyyyyy&label=TOTAL+VISITORS&color=a855f7&style=for-the-badge)
-&nbsp;&nbsp;
+![Visitor Count](https://komarev.com/ghpvc/?username=Rossyyyyyy&label=ADVENTURERS+VISITED&color=a855f7&style=for-the-badge)
+&nbsp;
 ![Since](https://img.shields.io/badge/TRACKING_SINCE-2024-ec4899?style=for-the-badge)
 
 <sub><i>Every visit counts — thanks for stopping by, adventurer! 🎮</i></sub>
@@ -68,70 +68,70 @@
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--           STATS / LIVE DATA            -->
-<!-- ═══════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     PLAYER STATS                             -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/bar-chart.png" width="28" align="center"/> PLAYER STATS  <sub><sup>[ LIVE DATA FROM GITHUB ]</sup></sub>
+## <img src="https://img.icons8.com/fluency/28/bar-chart.png" width="26" align="center"/> &nbsp;PLAYER STATS &nbsp;<sup><sub>[ LIVE DATA FROM GITHUB ]</sub></sup>
 
 <div align="center">
 
-<!-- AUTO-GENERATED custom RPG stats card — rebuilt every 12h -->
-<img src="./assets/stats-card.svg" width="49%" alt="RPG Stats Card"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=synthwave&hide_border=true&bg_color=0D0D1A&title_color=a855f7&icon_color=ec4899&text_color=c4b5fd&count_private=true&rank_icon=github&custom_title=⚔+Battle+Stats" alt="GitHub Stats"/>
+<img src="./assets/stats-card.svg" width="48%" alt="RPG Stats Card"/>
+&nbsp;
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Rossyyyyyy&show_icons=true&theme=synthwave&hide_border=true&bg_color=07071a&title_color=c084fc&icon_color=ec4899&text_color=c4b5fd&count_private=true&rank_icon=github&custom_title=⚔+Battle+Stats" alt="GitHub Stats"/>
 
 </div>
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rossyyyyyy&theme=synthwave&hide_border=true&background=0D0D1A&stroke=a855f7&ring=ec4899&fire=f59e0b&currStreakLabel=a855f7&sideLabels=c4b5fd&dates=6b7280" alt="GitHub Streak"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rossyyyyyy&layout=compact&theme=synthwave&hide_border=true&bg_color=0D0D1A&title_color=a855f7&text_color=c4b5fd&langs_count=8&custom_title=📜+Spell+Book+%28Languages%29" alt="Top Languages"/>
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rossyyyyyy&theme=synthwave&hide_border=true&background=07071a&stroke=a855f7&ring=ec4899&fire=f59e0b&currStreakLabel=c084fc&sideLabels=c4b5fd&dates=6b7280" alt="GitHub Streak"/>
+&nbsp;
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rossyyyyyy&layout=compact&theme=synthwave&hide_border=true&bg_color=07071a&title_color=c084fc&text_color=c4b5fd&langs_count=8&custom_title=📜+Spell+Book+(Languages)" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rossyyyyyy&theme=tokyo-night&hide_border=true&bg_color=0D0D1A&color=a855f7&line=ec4899&point=f59e0b&area=true&area_color=a855f7&custom_title=⚡+Activity+Map" alt="Contribution Graph"/>
-
-</div>
-
-<br>
-
-<!-- Trophy shelf styled as achievements -->
-<div align="center">
-
-**🏆 ACHIEVEMENTS UNLOCKED**
-
-<img src="https://github-profile-trophy.vercel.app/?username=Rossyyyyyy&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=6" width="100%" alt="Trophies"/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rossyyyyyy&theme=tokyo-night&hide_border=true&bg_color=07071a&color=c084fc&line=ec4899&point=f59e0b&area=true&area_color=a855f7&custom_title=⚡+Contribution+Activity+Map" alt="Contribution Graph"/>
 
 </div>
 
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+
+**🏆 &nbsp;ACHIEVEMENTS UNLOCKED**
+
+<img src="https://github-profile-trophy.vercel.app/?username=Rossyyyyyy&theme=dracula&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" width="100%" alt="GitHub Trophies"/>
+
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--           SKILL TREE                   -->
-<!-- ═══════════════════════════════════════ -->
+<div align="center">
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
+</div>
 
-## <img src="https://img.icons8.com/fluency/28/maintenance.png" width="28" align="center"/> SKILL TREE
+<br>
+
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                       SKILL TREE                             -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+## <img src="https://img.icons8.com/fluency/28/maintenance.png" width="26" align="center"/> &nbsp;SKILL TREE
 
 <div align="center">
 
-<table border="0">
+<table border="0" cellpadding="12" cellspacing="0">
 <tr>
 <td align="center" valign="top" width="25%">
 
-**<img src="https://img.icons8.com/fluency/20/design.png" width="20" align="center"/> FRONTEND**
+**🖥️ &nbsp;FRONTEND**
 `[ MASTERED ]`
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -144,25 +144,25 @@
 </td>
 <td align="center" valign="top" width="25%">
 
-**<img src="https://img.icons8.com/fluency/20/server.png" width="20" align="center"/> BACKEND**
+**⚙️ &nbsp;BACKEND**
 `[ MASTERED ]`
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express-ffffff?style=flat-square&logo=express&logoColor=black)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8892BF?style=flat-square&logo=php&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-ffffff?style=flat-square&logo=express&logoColor=black)
 
 </td>
 <td align="center" valign="top" width="25%">
 
-**<img src="https://img.icons8.com/fluency/20/database.png" width="20" align="center"/> DATABASES**
+**🗄️ &nbsp;DATABASES**
 `[ MASTERED ]`
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-**<img src="https://img.icons8.com/fluency/20/tools.png" width="20" align="center"/> TOOLS**
+**🔧 &nbsp;TOOLS**
 `[ EQUIPPED ]`
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -173,7 +173,7 @@
 </td>
 <td align="center" valign="top" width="25%">
 
-**<img src="https://img.icons8.com/fluency/20/code.png" width="20" align="center"/> LANGUAGES**
+**💬 &nbsp;LANGUAGES**
 `[ UNLOCKED ]`
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -188,35 +188,34 @@
 
 </div>
 
-<br>
-
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,laravel,php,mongodb,mysql,postgres,python,cpp,tailwind,git,vscode,raspberrypi&perline=8&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,laravel,php,mongodb,mysql,postgres,python,cpp,tailwind,git,vscode,raspberrypi&perline=8&theme=dark" alt="Skill Icons"/>
 </div>
 
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--           QUEST LOG / PROJECTS         -->
-<!-- ═══════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                       QUEST LOG                              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/target.png" width="28" align="center"/> QUEST LOG  <sub><sup>[ COMPLETED MISSIONS ]</sup></sub>
+## <img src="https://img.icons8.com/fluency/28/target.png" width="26" align="center"/> &nbsp;QUEST LOG &nbsp;<sup><sub>[ COMPLETED MISSIONS ]</sub></sup>
 
 <div align="center">
 
-<table border="0" cellpadding="10">
+<table border="0" cellpadding="14" cellspacing="0">
 <tr>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/ocean.png" width="24" align="center"/> ProtectOcean
+**`✔ QUEST COMPLETE`**
+### 🌊 &nbsp;ProtectOcean
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -225,7 +224,7 @@
 > Full-stack web & mobile app for reporting illegal ocean activities and protecting marine life.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 📍 Real-time geolocation | ✅ |
 | 🗑️ Trash monitoring | ✅ |
 | 🚨 Illegal activity reporting | ✅ |
@@ -233,11 +232,12 @@
 
 </div>
 </td>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/city-hall.png" width="24" align="center"/> SmartB Barangay System
+**`✔ QUEST COMPLETE`**
+### 🏛️ &nbsp;SmartB Barangay System
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -245,7 +245,7 @@
 > Digital barangay management system for online document requests and blotter reports.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 📄 Online document requests | ✅ |
 | 📝 Blotter filing system | ✅ |
 | 📦 Request tracking | ✅ |
@@ -253,41 +253,43 @@
 
 </div>
 </td>
-</tr>
 
+</tr>
 <tr>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/lightning-bolt.png" width="24" align="center"/> SingKarga Charging Station
+**`✔ QUEST COMPLETE`**
+### ⚡ &nbsp;SingKarga Charging Station
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
 
-> IoT charging station management with Raspberry Pi integration.
+> IoT charging station management system with Raspberry Pi hardware integration.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 📡 Real-time monitoring | ✅ |
 | 💳 Payment management | ✅ |
-| 📈 Usage tracking | ✅ |
+| 📈 Usage analytics | ✅ |
 | 🔌 Hardware integration | ✅ |
 
 </div>
 </td>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/security-shield-green.png" width="24" align="center"/> Email Phishing Detector
+**`✔ QUEST COMPLETE`**
+### 🛡️ &nbsp;Email Phishing Detector
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-> Security tool that analyzes and detects phishing attempts in emails.
+> Security tool that analyzes and detects phishing attempts in emails using pattern recognition.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 🔍 Pattern detection | ✅ |
 | ⚠️ Threat analysis | ✅ |
 | 🔔 User alerts | ✅ |
@@ -295,23 +297,24 @@
 
 </div>
 </td>
-</tr>
 
+</tr>
 <tr>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/shopping-cart.png" width="24" align="center"/> E-Commerce Projects
+**`✔ QUEST COMPLETE`**
+### 🛒 &nbsp;E-Commerce Projects
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
-> Multiple online stores: Ice Cream Shop & Dress Shop.
+> Multiple online stores — Ice Cream Shop & Dress Shop with full cart and payment flows.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 🛍️ Shopping cart system | ✅ |
 | 💳 Payment integration | ✅ |
 | 📦 Inventory management | ✅ |
@@ -319,20 +322,21 @@
 
 </div>
 </td>
+
 <td width="50%" valign="top">
 <div align="center">
 
-**`[ QUEST COMPLETE ✔ ]`**
-### <img src="https://img.icons8.com/fluency/24/briefcase.png" width="24" align="center"/> More Projects
+**`✔ QUEST COMPLETE`**
+### 💼 &nbsp;More Projects
 
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-> School Website, PC Inventory System, Phone Shop POS, File Handling System.
+> School Website · PC Inventory System · Phone Shop POS · File Handling System.
 
 | Feature | Status |
-|---|:---:|
+|:---|:---:|
 | 🖥️ Desktop applications | ✅ |
 | 🌐 Web development | ✅ |
 | 🗄️ Database management | ✅ |
@@ -340,6 +344,7 @@
 
 </div>
 </td>
+
 </tr>
 </table>
 
@@ -348,21 +353,21 @@
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--           ACTIVE QUESTS / UP TO        -->
-<!-- ═══════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                     ACTIVE QUESTS                            -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/activity-feed.png" width="28" align="center"/> ACTIVE QUESTS
+## <img src="https://img.icons8.com/fluency/28/activity-feed.png" width="26" align="center"/> &nbsp;ACTIVE QUESTS
 
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#a855f7','primaryTextColor':'#fff','primaryBorderColor':'#ec4899','lineColor':'#f59e0b','secondaryColor':'#1a0533','tertiaryColor':'#0f0f1a','textColor':'#c4b5fd','fontSize':'14px'}}}%%
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#a855f7','primaryTextColor':'#fff','primaryBorderColor':'#ec4899','lineColor':'#f59e0b','secondaryColor':'#1a0533','tertiaryColor':'#07071a','textColor':'#c4b5fd','fontSize':'14px'}}}%%
 flowchart LR
     A(["⚔ ROSCHEL\nLVL ∞"]) --> B["🌐 Web Apps\nReact · Next.js"]
     A --> C["📱 Mobile Apps\nReact Native"]
@@ -380,7 +385,7 @@ flowchart LR
 
 <div align="center">
 
-| <img src="https://img.icons8.com/fluency/20/hammer.png" width="20"/> BUILDING | <img src="https://img.icons8.com/fluency/20/book.png" width="20"/> LEARNING | <img src="https://img.icons8.com/fluency/20/goal.png" width="20"/> GOAL |
+| 🔨 &nbsp;BUILDING | 📖 &nbsp;LEARNING | 🎯 &nbsp;GOAL |
 |:---:|:---:|:---:|
 | Responsive web apps | IoT Development | Impactful solutions |
 | Cross-platform mobile | Advanced React Patterns | Real-world problems |
@@ -392,31 +397,28 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--     CONTRIBUTION SNAKE (LIVE DATA)     -->
-<!-- ═══════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                   CONTRIBUTION SNAKE                         -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/snake.png" width="28" align="center"/> CONTRIBUTION MAP  <sub><sup>[ LIVE FROM GITHUB ]</sup></sub>
+## <img src="https://img.icons8.com/fluency/28/snake.png" width="26" align="center"/> &nbsp;CONTRIBUTION MAP &nbsp;<sup><sub>[ LIVE FROM GITHUB ]</sub></sup>
 
 <div align="center">
 
-<!-- Snake is generated by the Generate Contribution Snake workflow -->
-<!-- Run it manually once from the Actions tab if it shows a broken image -->
 <picture>
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)"
           srcset="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake.svg">
-  <img
-    src="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake-dark.svg"
-    alt="github contribution grid snake animation"
-    width="100%"
-    onerror="this.style.display='none'">
+  <img src="https://raw.githubusercontent.com/Rossyyyyyy/Rossyyyyyy/output/github-contribution-grid-snake-dark.svg"
+       alt="GitHub contribution grid snake animation"
+       width="100%"
+       onerror="this.style.display='none'"/>
 </picture>
 
 </div>
@@ -424,36 +426,36 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<!-- ═══════════════════════════════════════ -->
-<!--           CONNECT / GUILD HALL         -->
-<!-- ═══════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                      GUILD HALL                              -->
+<!-- ══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://img.icons8.com/fluency/28/handshake.png" width="28" align="center"/> GUILD HALL  <sub><sup>[ LET'S CONNECT ]</sup></sub>
+## <img src="https://img.icons8.com/fluency/28/handshake.png" width="26" align="center"/> &nbsp;GUILD HALL &nbsp;<sup><sub>[ LET'S CONNECT ]</sub></sup>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=2500&pause=1000&color=A855F7&center=true&vCenter=true&width=650&height=40&lines=SEEKING+PARTY+MEMBERS...;Open+to+collaborate+%26+build+together!;Send+a+message+to+join+the+quest!" alt="Connect Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2200&pause=900&color=C084FC&center=true&vCenter=true&width=660&height=40&lines=SEEKING+PARTY+MEMBERS...;Open+to+collaborate+%26+build+together!;Send+a+message+to+join+the+quest!" alt="Connect Typing"/>
 
 <br><br>
 
-[![Facebook](https://img.shields.io/badge/▶_FACEBOOK-Connect_with_me-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/roschelmae.anoos.1)
-[![Instagram](https://img.shields.io/badge/▶_INSTAGRAM-Follow_me-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ru_shelll?igsh=MW5jNGZnYmswZHRwNA==)
-[![X](https://img.shields.io/badge/▶_X_TWITTER-Follow_me-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Roschelmae2)
+[![Facebook](https://img.shields.io/badge/▶%20FACEBOOK-Connect_with_me-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/roschelmae.anoos.1)
+[![Instagram](https://img.shields.io/badge/▶%20INSTAGRAM-Follow_me-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ru_shelll?igsh=MW5jNGZnYmswZHRwNA==)
+[![X](https://img.shields.io/badge/▶%20X%20%2F%20TWITTER-Follow_me-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Roschelmae2)
 
 <br>
 
 **PARTY ROLES AVAILABLE:**
 
-![Open Source](https://img.shields.io/badge/⚔_Open_Source_Collaboration-a855f7?style=flat-square)
-![Freelance](https://img.shields.io/badge/🗡_Freelance_Opportunities-ec4899?style=flat-square)
-![Full-time](https://img.shields.io/badge/🏰_Full--time_Positions-06B6D4?style=flat-square)
-![Networking](https://img.shields.io/badge/🤝_Developer_Networking-f59e0b?style=flat-square)
-![Knowledge](https://img.shields.io/badge/📜_Knowledge_Sharing-10B981?style=flat-square)
+![Open Source](https://img.shields.io/badge/⚔_Open_Source_Collaboration-a855f7?style=flat-square&logoColor=white)
+![Freelance](https://img.shields.io/badge/🗡_Freelance_Opportunities-ec4899?style=flat-square&logoColor=white)
+![Full-time](https://img.shields.io/badge/🏰_Full--time_Positions-06B6D4?style=flat-square&logoColor=white)
+![Networking](https://img.shields.io/badge/🤝_Developer_Networking-f59e0b?style=flat-square&logoColor=white)
+![Knowledge](https://img.shields.io/badge/📜_Knowledge_Sharing-10B981?style=flat-square&logoColor=white)
 
 <br><br>
 
@@ -468,17 +470,23 @@ flowchart LR
 <br>
 
 <div align="center">
-<img src="./assets/pixel-divider.svg" width="100%"/>
+<img src="./assets/pixel-divider.svg" width="100%" alt="divider"/>
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f1a,50:1a0533,100:0f0f1a&height=100&section=footer&text=GAME+OVER%3F+NEVER.+%F0%9F%8E%AE+PRESS+START+TO+CONTINUE&fontSize=18&fontColor=a855f7&fontAlignY=55&animation=blinking&stroke=a855f7&strokeWidth=1" width="100%"/>
+<!-- ══════════════════════════════════════════════════════════════ -->
+<!--                       FOOTER                                 -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:07071a,40:130a2e,60:1a0533,100:07071a&height=90&section=footer&text=GAME+OVER%3F+NEVER.+%F0%9F%8E%AE+PRESS+START+TO+CONTINUE&fontSize=16&fontColor=c084fc&fontAlignY=55&animation=blinking&stroke=a855f7&strokeWidth=1" width="100%" alt="Footer"/>
 
 <div align="center">
   <sub>
-    <img src="https://img.icons8.com/fluency/16/controller.png" width="16" align="center"/>
-    Player <a href="https://github.com/Rossyyyyyy">Rossyyyyyy</a> · <i>Code, Coffee, Create, Repeat ☕</i> ·
-    <img src="https://img.icons8.com/fluency/16/controller.png" width="16" align="center"/>
+    <img src="https://img.icons8.com/fluency/16/controller.png" width="14" align="center"/>
+    &nbsp;Player <a href="https://github.com/Rossyyyyyy">Rossyyyyyy</a>
+    &nbsp;·&nbsp; <i>Code · Coffee · Create · Repeat ☕</i>
+    &nbsp;·&nbsp;
+    <img src="https://img.icons8.com/fluency/16/controller.png" width="14" align="center"/>
   </sub>
 </div>

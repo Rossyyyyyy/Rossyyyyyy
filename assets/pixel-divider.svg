@@ -1,23 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="12" viewBox="0 0 900 12">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="20" viewBox="0 0 900 20">
   <defs>
-    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0f0f1a"/>
-      <stop offset="20%"  stop-color="#a855f7"/>
+    <linearGradient id="dg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0f0f1a" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="#7c3aed"/>
+      <stop offset="35%"  stop-color="#a855f7"/>
       <stop offset="50%"  stop-color="#ec4899"/>
-      <stop offset="80%"  stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#0f0f1a"/>
+      <stop offset="65%"  stop-color="#a855f7"/>
+      <stop offset="85%"  stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#0f0f1a" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="dg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0f0f1a" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#818cf8"/>
+      <stop offset="50%"  stop-color="#f0abfc"/>
+      <stop offset="80%"  stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#0f0f1a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dglow">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <!-- pixel blocks row -->
-  <rect x="0"   y="4" width="6" height="4" fill="#a855f7" opacity="0.3"/>
-  <rect x="8"   y="4" width="6" height="4" fill="#a855f7" opacity="0.5"/>
-  <rect x="16"  y="2" width="6" height="8" fill="#a855f7" opacity="0.7"/>
-  <rect x="24"  y="0" width="6" height="12" fill="#a855f7"/>
-  <!-- main gradient line -->
-  <rect x="32"  y="4" width="836" height="4" fill="url(#pg)" rx="2"/>
-  <!-- right mirror -->
-  <rect x="870" y="0" width="6" height="12" fill="#a855f7"/>
-  <rect x="878" y="2" width="6" height="8" fill="#a855f7" opacity="0.7"/>
-  <rect x="886" y="4" width="6" height="4" fill="#a855f7" opacity="0.5"/>
-  <rect x="894" y="4" width="6" height="4" fill="#a855f7" opacity="0.3"/>
+
+  <!-- glow layer -->
+  <rect x="50" y="8" width="800" height="4" rx="2" fill="url(#dg1)" opacity="0.4" filter="url(#dglow)"/>
+
+  <!-- main line -->
+  <rect x="50" y="9" width="800" height="2" rx="1" fill="url(#dg1)"/>
+
+  <!-- shimmer line above -->
+  <rect x="100" y="7" width="700" height="1" rx="0.5" fill="url(#dg2)" opacity="0.5"/>
+
+  <!-- left pixel cluster -->
+  <rect x="0"  y="6"  width="4" height="8"  rx="1" fill="#7c3aed" opacity="0.4"/>
+  <rect x="6"  y="4"  width="4" height="12" rx="1" fill="#a855f7" opacity="0.6"/>
+  <rect x="12" y="2"  width="4" height="16" rx="1" fill="#a855f7" opacity="0.8"/>
+  <rect x="18" y="0"  width="4" height="20" rx="1" fill="#a855f7"/>
+  <rect x="24" y="2"  width="4" height="16" rx="1" fill="#ec4899" opacity="0.9"/>
+  <rect x="30" y="4"  width="4" height="12" rx="1" fill="#ec4899" opacity="0.7"/>
+  <rect x="36" y="6"  width="4" height="8"  rx="1" fill="#ec4899" opacity="0.4"/>
+  <rect x="42" y="8"  width="4" height="4"  rx="1" fill="#ec4899" opacity="0.2"/>
+
+  <!-- center diamond accent -->
+  <rect x="446" y="5"  width="4" height="10" rx="1" fill="#f0abfc" opacity="0.9" filter="url(#dglow)"/>
+  <rect x="442" y="7"  width="4" height="6"  rx="1" fill="#f0abfc" opacity="0.6"/>
+  <rect x="450" y="7"  width="4" height="6"  rx="1" fill="#f0abfc" opacity="0.6"/>
+
+  <!-- right pixel cluster (mirror) -->
+  <rect x="854" y="8"  width="4" height="4"  rx="1" fill="#a855f7" opacity="0.2"/>
+  <rect x="860" y="6"  width="4" height="8"  rx="1" fill="#a855f7" opacity="0.4"/>
+  <rect x="866" y="4"  width="4" height="12" rx="1" fill="#a855f7" opacity="0.7"/>
+  <rect x="872" y="2"  width="4" height="16" rx="1" fill="#ec4899" opacity="0.9"/>
+  <rect x="878" y="0"  width="4" height="20" rx="1" fill="#ec4899"/>
+  <rect x="884" y="2"  width="4" height="16" rx="1" fill="#a855f7" opacity="0.8"/>
+  <rect x="890" y="4"  width="4" height="12" rx="1" fill="#a855f7" opacity="0.6"/>
+  <rect x="896" y="6"  width="4" height="8"  rx="1" fill="#7c3aed" opacity="0.4"/>
 </svg>
