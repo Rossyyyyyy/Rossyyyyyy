@@ -81,7 +81,7 @@
   <text x="100" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#f0abfc">⭐ 0 STARS</text>
   <text x="220" y="188" font-family="'Courier New', monospace" font-size="11"
-        text-anchor="middle" fill="#818cf8">📦 25 REPOS</text>
+        text-anchor="middle" fill="#818cf8">📦 24 REPOS</text>
   <text x="360" y="188" font-family="'Courier New', monospace" font-size="11"
         text-anchor="middle" fill="#34d399">👥 14 FOLLOWERS</text>
   <text x="510" y="188" font-family="'Courier New', monospace" font-size="11"
@@ -93,5 +93,5 @@
 
   <!-- last updated -->
   <text x="450" y="212" font-family="'Courier New', monospace" font-size="9"
-        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Thu, 14 May 2026 14:13:20 GMT</text>
+        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Fri, 15 May 2026 03:34:23 GMT</text>
 </svg>
