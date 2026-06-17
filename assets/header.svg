@@ -116,11 +116,11 @@
   <!-- REPOS -->
   <rect x="195" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#818cf8" stroke-width="1" opacity="0.9"/>
   <text x="255" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">📦 REPOS</text>
-  <text x="255" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#818cf8" font-weight="bold" filter="url(#sglow)">23</text>
+  <text x="255" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#818cf8" font-weight="bold" filter="url(#sglow)">22</text>
   <!-- FOLLOWERS -->
   <rect x="330" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#34d399" stroke-width="1" opacity="0.9"/>
   <text x="390" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">👥 FOLLOWERS</text>
-  <text x="390" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#34d399" font-weight="bold" filter="url(#sglow)">20</text>
+  <text x="390" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#34d399" font-weight="bold" filter="url(#sglow)">21</text>
   <!-- FORKS -->
   <rect x="465" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
   <text x="525" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">🍴 FORKS</text>
@@ -137,5 +137,5 @@
   <!-- footer bar -->
   <rect x="0" y="232" width="900" height="28" fill="#0a0a1e" opacity="0.6"/>
   <text x="450" y="250" font-family="'Courier New',monospace" font-size="9"
-        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Wed, 17 Jun 2026 04:11:45 GMT</text>
+        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Wed, 17 Jun 2026 15:32:40 GMT</text>
 </svg>
