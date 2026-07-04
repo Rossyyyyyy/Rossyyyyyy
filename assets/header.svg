@@ -103,7 +103,7 @@
   <!-- subtitle -->
   <text x="450" y="152" font-family="'Courier New',monospace" font-size="13"
         text-anchor="middle" fill="#c4b5fd" letter-spacing="4"
-        filter="url(#sglow)">✦  dadadadahahadwdukjja  ·  IT STUDENT  ·  🇵🇭  ✦</text>
+        filter="url(#sglow)">✦  In a world full of algorithms, you're my favorite infinite loop.  ·  IT STUDENT  ·  🇵🇭  ✦</text>
 
   <!-- thin divider -->
   <rect x="200" y="163" width="500" height="1" fill="url(#accentg)" opacity="0.6"/>
@@ -137,5 +137,5 @@
   <!-- footer bar -->
   <rect x="0" y="232" width="900" height="28" fill="#0a0a1e" opacity="0.6"/>
   <text x="450" y="250" font-family="'Courier New',monospace" font-size="9"
-        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Fri, 03 Jul 2026 14:05:09 GMT</text>
+        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Sat, 04 Jul 2026 02:57:33 GMT</text>
 </svg>
