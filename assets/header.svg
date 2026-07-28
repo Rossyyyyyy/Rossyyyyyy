@@ -94,16 +94,16 @@
   <!-- name shadow -->
   <text x="450" y="122" font-family="'Courier New',monospace" font-size="54"
         font-weight="bold" text-anchor="middle"
-        fill="#7c3aed" opacity="0.4" filter="url(#bigglow)" letter-spacing="6">ROSCHEL MAE E. ANO-OS</text>
+        fill="#7c3aed" opacity="0.4" filter="url(#bigglow)" letter-spacing="6">ROSSYYYYYY</text>
   <!-- name main -->
   <text x="450" y="122" font-family="'Courier New',monospace" font-size="54"
         font-weight="bold" text-anchor="middle"
-        fill="url(#nameg)" filter="url(#glow)" letter-spacing="6">ROSCHEL MAE E. ANO-OS</text>
+        fill="url(#nameg)" filter="url(#glow)" letter-spacing="6">ROSSYYYYYY</text>
 
   <!-- subtitle -->
   <text x="450" y="152" font-family="'Courier New',monospace" font-size="13"
         text-anchor="middle" fill="#c4b5fd" letter-spacing="4"
-        filter="url(#sglow)">✦  In a world full of algorithms, you're my favorite infinite loop.  ·  IT STUDENT  ·  🇵🇭  ✦</text>
+        filter="url(#sglow)">✦  Full-Stack Developer  ·  IT STUDENT  ·  🇵🇭  ✦</text>
 
   <!-- thin divider -->
   <rect x="200" y="163" width="500" height="1" fill="url(#accentg)" opacity="0.6"/>
@@ -112,15 +112,15 @@
   <!-- STARS -->
   <rect x="60"  y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#a855f7" stroke-width="1" opacity="0.9"/>
   <text x="120" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">⭐ STARS</text>
-  <text x="120" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#f0abfc" font-weight="bold" filter="url(#sglow)">2</text>
+  <text x="120" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#f0abfc" font-weight="bold" filter="url(#sglow)">0</text>
   <!-- REPOS -->
   <rect x="195" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#818cf8" stroke-width="1" opacity="0.9"/>
   <text x="255" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">📦 REPOS</text>
-  <text x="255" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#818cf8" font-weight="bold" filter="url(#sglow)">22</text>
+  <text x="255" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#818cf8" font-weight="bold" filter="url(#sglow)">0</text>
   <!-- FOLLOWERS -->
   <rect x="330" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#34d399" stroke-width="1" opacity="0.9"/>
   <text x="390" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">👥 FOLLOWERS</text>
-  <text x="390" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#34d399" font-weight="bold" filter="url(#sglow)">40</text>
+  <text x="390" y="212" font-family="'Courier New',monospace" font-size="16" text-anchor="middle" fill="#34d399" font-weight="bold" filter="url(#sglow)">0</text>
   <!-- FORKS -->
   <rect x="465" y="176" width="120" height="44" rx="4" fill="#0f0f2a" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
   <text x="525" y="194" font-family="'Courier New',monospace" font-size="9"  text-anchor="middle" fill="#6b7280" letter-spacing="2">🍴 FORKS</text>
@@ -137,5 +137,5 @@
   <!-- footer bar -->
   <rect x="0" y="232" width="900" height="28" fill="#0a0a1e" opacity="0.6"/>
   <text x="450" y="250" font-family="'Courier New',monospace" font-size="9"
-        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Mon, 27 Jul 2026 14:34:35 GMT</text>
+        text-anchor="middle" fill="#374151" letter-spacing="1">AUTO-UPDATED: Tue, 28 Jul 2026 02:33:18 GMT</text>
 </svg>
